@@ -17,7 +17,7 @@ const ExperienceSection = () => {
   ];
 
   return (
-    <section id='experience' className="min-h-screen bg-[#0d1117] text-white p-8 md:p-24 font-sans">
+    <section id='experience' className="min-h-screen bg-[#0d1117] text-white p-8 md:p-20 font-sans">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-2xl font-bold mb-12">Experience</h2>
 

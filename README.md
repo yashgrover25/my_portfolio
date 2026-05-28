@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yash Grover — Portfolio
 
-## Getting Started
+Personal portfolio built with Next.js 15, Tailwind CSS v4, and Framer Motion.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js_15-black?style=flat&logo=next.js)
+![Tailwind](https://img.shields.io/badge/Tailwind_v4-38BDF8?style=flat&logo=tailwindcss&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3B82F6?style=flat&logo=typescript&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-818CF8?style=flat&logo=framer&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-black?style=flat&logo=vercel)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🔗 Live
+
+**[yashgroverportfolio.vercel.app](https://yashgroverportfolio.vercel.app)**
+
+---
+
+## ✨ Features
+
+- Fully responsive — mobile-first design
+- Smooth scroll animations with Framer Motion
+- Working contact form via Resend API
+- Type-safe data layer — all resume data in `src/data/index.ts`
+- Zod-validated API route for form submissions
+- Dark theme with custom Tailwind v4 `@theme` color tokens
+
+---
+
+## 🗂 Project Structure
+
+```
+src/
+├── app/
+│   ├── api/contact/route.ts   ← email API route
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   └── sections/              ← Navbar, Hero, About, Skills,
+│                                 Projects, Experience, Contact
+└── data/
+    └── index.ts               ← all resume data + TypeScript types
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧠 What I learned building this
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js App Router** — understanding Server vs Client Components
+  and when to use `"use client"`
+- **Tailwind CSS v4** — using the new `@theme` block instead of
+  `tailwind.config.ts` for custom design tokens
+- **Route Handlers** — building a lightweight backend endpoint
+  with Zod validation for the contact form
+- **Framer Motion** — `whileInView` scroll animations and
+  per-item stagger effects
+- **TypeScript** — discriminated unions (`"live" | "wip" | "archived"`)
+  and utility types for component props
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📬 Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Email:** ygrover178@gmail.com
+**LinkedIn:** [yash-grover17](https://linkedin.com/in/yash-grover17)
+**GitHub:** [yashgrover25](https://github.com/yashgrover25)
