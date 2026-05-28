@@ -26,7 +26,7 @@ export default function Contact() {
   const onSubmit = async (data: FormData) => {
     setStatus("sending")
     try {
-      const res = await fetch("/API/Contact", {
+      const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
