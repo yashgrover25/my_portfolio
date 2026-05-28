@@ -21,20 +21,37 @@ export type Skill = {
 
 export const projects: Project[] = [
   {
+    title: 'Prime Forensics',
+    description:
+      'Professional platform for a forensic investigation firm — digital forensics, mobile forensics, data recovery.',
+    tech: ['Next.js', 'React', 'Resend'],
+    live: 'https://primeforensics.in',
+    status: 'live',
+  },
+  {
+    title: 'Snacktrack-Food Scanning App',
+    description:
+      'The app (snack_track_app) aims to help users identify harmful ingredients in eatables.',
+    tech: ['Flutter', 'Supabase', 'Dart'],
+    github: 'https://github.com/Stucknot/snack_track_app',
+    status: 'wip',
+  },
+  {
     title: 'Customer Management App',
     description:
       'Shop-focused system with Firestore, automated follow-up reminders, and streamlined UI.',
     tech: ['Flutter', 'Firebase', 'Dart'],
+    github: 'https://github.com/yashgrover25/dashmesh_ro',
     status: 'live',
   },
-  {
-    title: 'Prime Forensics',
-    description:
-      'Professional platform for a forensic investigation firm — digital forensics, mobile forensics, data recovery.',
-    tech: ['Next.js', 'React'],
-    live: 'https://primeforensics.in',
-    status: 'live',
-  },
+  // {
+  //   title: 'Prime Forensics',
+  //   description:
+  //     'Professional platform for a forensic investigation firm — digital forensics, mobile forensics, data recovery.',
+  //   tech: ['Next.js', 'React'],
+  //   live: 'https://primeforensics.in',
+  //   status: 'live',
+  // },
 ]
 
 export const experience: Experience[] = [

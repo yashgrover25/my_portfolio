@@ -19,15 +19,15 @@ export default function About() {
 
         <div className="grid md:grid-cols-2 gap-12 items-start">
 
-          {/* Photo placeholder */}
-          <div className="shrink-0 relative sm:min-h-full">
-              <Image
-                src="/yashgrover.jpeg"
-                fill={true}
-                alt="Yash Grover"
-                className="object-cover rounded-2xl"
-              />
-            </div>
+          {/* Photo */}
+          <div className="relative w-full h-[300px] sm:h-full shrink-0">
+            <Image
+              src="/yashgrover.jpeg"
+              fill
+              alt="Yash Grover"
+              className="object-cover rounded-2xl"
+            />
+          </div>
           {/* <div className="w-full aspect-square max-w-xs mx-auto md:mx-0 rounded-2xl
             bg-surface border border-border flex items-center justify-center text-text-muted">
             <span className="text-sm">your photo</span>
