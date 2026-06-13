@@ -24,7 +24,7 @@ export default function Home() {
 
           {/* Left Side: Copyright */}
           <div className="text-sm font-medium tracking-tight">
-            © 2024 <span className="text-white">Yash Grover.</span> Built with precision.
+            © 2026 <span className="text-white">Yash Grover.</span> Built with precision.
           </div>
 
           {/* Right Side: Social Links */}

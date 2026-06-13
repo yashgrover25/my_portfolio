@@ -42,7 +42,7 @@ export default function About() {
             <p className="text-text-secondary leading-relaxed">
               I've worked as a Flutter Developer and Engineer Intern at Stucknot,
               where I built production UIs and worked hands-on with LLMs and
-              RAG pipelines — experience most 2nd year students don't have.
+              RAG pipelines
             </p>
             <p className="text-text-secondary leading-relaxed">
               Outside of work, I practice competitive coding on LeetCode, build

@@ -15,7 +15,7 @@ export default function Hero() {
         className="mb-6 inline-flex items-center gap-2 px-4 py-1.5 rounded-full
           border border-accent/30 bg-accent/10 text-accent-light text-xs">
         <span className="w-1.5 h-1.5 rounded-full bg-teal animate-pulse" />
-        available for work · 2026
+        Available for work · 2026
       </motion.div>
     
       {/* Name */}
@@ -29,8 +29,8 @@ export default function Hero() {
       <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
         className="text-lg md:text-xl text-text-secondary mb-2 max-w-xl">
-        Building interfaces. 
-        <span className="text-accent-light">Exploring backends.</span>
+        Flutter dev with production experience
+        <div className="text-accent-light">— building fast, shipping faster.</div>
       </motion.p>
 
       <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }}
