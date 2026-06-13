@@ -24,7 +24,12 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Yash Grover" }],
   creator: "Yash Grover",
-  metadataBase: new URL("https://yashgrover.dev"), // replace with your actual domain
+  metadataBase: new URL("https://yashgroverportfolio.vercel.app"),
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",

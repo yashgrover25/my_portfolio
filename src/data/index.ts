@@ -44,6 +44,14 @@ export const projects: Project[] = [
     github: 'https://github.com/yashgrover25/dashmesh_ro',
     status: 'live',
   },
+  {
+    title: 'KhetSe',
+    description:
+      'Farm-to-pantry D2C e-commerce platform — organic staples, subscription boxes, and automated pantry delivery.',
+    tech: ['Next.js', 'React', 'Supabase', 'Razorpay', 'Resend'],
+    // live: 'https://khetse.vercel.app',
+    status: 'wip',
+  }
   // {
   //   title: 'Prime Forensics',
   //   description:
